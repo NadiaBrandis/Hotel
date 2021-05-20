@@ -1,0 +1,61 @@
+﻿body
+{
+    background-color:coral;
+}
+h1 {
+    font-family: 'Franklin Gothic';
+    background-color:black;
+    color:beige;
+    border-radius:5px;
+    font-size:xx-large;
+    margin-right:20px;
+}
+h5 {
+    font-family: 'Franklin Gothic';
+    background-color: black;
+    color: beige;
+    border-radius: 5px;
+    margin: 7px;
+    margin-right: 20px;
+}
+a{
+    font-family: 'Franklin Gothic';
+    background-color: black;
+    color: beige;
+    border-radius: 5px;
+    margin: 7px;
+    margin-right: 20px;
+}
+#p {
+    font-family: 'Franklin Gothic';
+}
+#stanze{
+    display:flex;
+    flex-direction:row;
+}
+
+}
+#prenota{
+    font-family: 'Franklin Gothic';
+    background-color: black;
+    color: beige;
+    border-radius: 5px;
+}
+@media screen and (max-width:992px) {
+    body {
+        background-color: blue;
+    }
+
+}
+@media screen and (max-width:660px) {
+    body {
+        background-color:aqua;
+    }
+    h1 {
+        font-family: 'Franklin Gothic';
+        background-color: black;
+        color: beige;
+        border-radius: 5px;
+        font-size:smaller;
+    }
+}
